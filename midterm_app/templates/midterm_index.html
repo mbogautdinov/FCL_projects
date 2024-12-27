@@ -1,0 +1,15 @@
+{% extends 'midterm_base.html' %}
+
+{% block title %} мидтермовский сайтик {% endblock %}
+
+{% block content %}
+    <form action='/statistics' method='GET'>
+        <fieldset>
+            <legend><b>здесь вы можете что-то написать, чтобы у меня получился хороший мидтермовский сайт</b></legend>
+            <br>напишите сюда предложение по-русски (одного будет достаточно)<br>
+            <input type="text" name="user_sentence" placeholder="Тьма, пришедшая со Средиземного моря, накрыла ненавидимый прокуратором город.">
+            <br><br><input type="submit" value="Submit">
+            <br>Обязательно засабмитьте!
+        </fieldset>
+    </form>
+{% endblock %}

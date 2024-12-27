@@ -1,0 +1,12 @@
+{% extends 'midterm_base.html' %}
+
+{% block title %} статистика по частям речи {% endblock %}
+
+{% block content %}
+    <h3>статистика по частям речи</h3>
+    <ul>    
+        {% for pos, num in statistics %}
+            <li>{{ pos }} - {{ num }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
