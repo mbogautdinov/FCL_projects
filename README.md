@@ -1,2 +1,2 @@
-# FCL_projects
-1st course FCL 2023
+# FCL projects
+of Fundamental and Computational Linguistics' undergraduate /marat bogautdinov
